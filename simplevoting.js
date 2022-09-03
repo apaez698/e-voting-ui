@@ -173,7 +173,8 @@ function refreshWorkflowStatus()
 			default:
 				workflowStatusDescription = "Unknown status";
 		}
-				
+		
+		//document.body.style.backgroundColor = workflowStatusDescription;
 		$("#currentWorkflowStatusMessage").html(workflowStatusDescription);
 	});
 }	
